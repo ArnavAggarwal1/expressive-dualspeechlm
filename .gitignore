@@ -1,0 +1,24 @@
+# Ignore dummy audio used for local testing
+_dummy_vq_audio/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual envs
+.venv/
+venv/
+
+# Torch / checkpoints / artifacts
+*.ckpt
+*.pt
+*.pth
+runs/
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
